@@ -1,0 +1,149 @@
+.bottom-footer {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    color: blanchedalmond;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .get-in-msg{
+    width: 1159px;
+left: 90px;
+border: 1px;
+
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+/* Form fields */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none; /* Remove border */
+  background-color: transparent; /* Make background transparent */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+.form-group label {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .form-group label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #333; /* Adjust the line color */
+  }
+  /* Horizontal line under labels */
+.form-group label {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .bottom-footer {
+    padding: 20px;
+    background-color: #f8f8f8;
+    background-image: url('bottom_Footer_img.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+  }
+  /* ... (previous styles) */
+  
+  /* Copyright notice */
+  .copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: #777;
+    font-size: 12px;
+  }
+  
+  input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none; /* Remove border */
+  background-color: transparent; /* Make background transparent */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0); /* Change the background color on focus */
+}
+
+/* Horizontal line under labels */
+.form-group label {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-group label::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 558px; /* Adjust the width as needed */
+  height: 1px; /* Adjust the line height */
+  background-color: #333; /* Adjust the line color */
+}
+
+/* Positioning for lines */
+.form-group.label-name::after {
+  top: 1674px;
+  left: 616px;
+  border: 1px;
+}
+
+.form-group.label-email::after {
+  top: 1674px; /* Adjust the top position */
+  left: 816px; /* Adjust the left position */
+  border: 1px; /* Adjust the border style */
+}
+
+.form-group.label-message::after {
+  top: 1674px; /* Adjust the top position */
+  left: 1016px; /* Adjust the left position */
+  border: 1px; /* Adjust the border style */
+}
+.get-in-touch-msg {
+    position: absolute;
+    width: 1440px; /* Adjust the width as needed */
+    height: 520px; /* Adjust the height as needed */
+    top: 1562px; /* Adjust the top position */
+    left: 0; /* Place on the left side */
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; /* Add left padding for spacing */
+  }
+  
